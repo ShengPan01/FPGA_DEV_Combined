@@ -1,0 +1,187 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 30 15:22:27 2026
+# Process ID: 41044
+# Current directory: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35124 D:\FPGA_DEV\2026_09_07\project_fpga_riscv_v0.2\project_fpga_riscv.xpr
+# Log file: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/vivado.log
+# Journal file: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.xpr
+update_compile_order -fileset sources_1
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bk3imcpj_wrapper.sv -filesets [get_filesets *]
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_top_ca.v -filesets [get_filesets *]
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/clb2axilite.v -filesets [get_filesets *]
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -filesets [get_filesets *]
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_ldst_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_ldst_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/machine_timer.sv] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/machine_timer.sv
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_memory_predictor_mem_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_codasip_startup_ctrl_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_reset_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_bw_module_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_memory_predictor_mem_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_codasip_startup_ctrl_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_reset_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_bw_module_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_clk_domain_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tck_domain_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_csr_file_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_npc_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_1_to_2.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_2_to_1.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_mcu_bridge.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_reset_gen_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_clk_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tck_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_csr_file_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_npc_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_1_to_2.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_2_to_1.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_mcu_bridge.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_reset_gen_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_dec_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_decompressor_16b32b_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_alu_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_cmp_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_memory_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_halt_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_jtag_fsm_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_main_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipe_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipeline_control_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ports_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_fetch_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_dec_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_decompressor_16b32b_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_alu_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_cmp_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_memory_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_halt_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_jtag_fsm_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_main_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipeline_control_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ports_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_fetch_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_sync_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_mul_div_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tap_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_sync_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_mul_div_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tap_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_top.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_top.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_d_ff_plain_rst_we_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/hex_analysis.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_shift_reg_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_pipeline_rst_we_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/hex_analysis.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_shift_reg_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_pipeline_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_edge_rst_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_rst_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/sync_reg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_regs.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_rx.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_tx.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_edge_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/sync_reg.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_regs.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_rx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_tx.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/ascii2bin.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/ascii2bin.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_we_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_we_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_define.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/define_uart.vh] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_define.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/define_uart.vh}
+add_files {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipeline_control_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_csr_file_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_clk_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_npc_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_intf.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_alu_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_fetch_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/codasip_reset_gen_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/hex_analysis.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_bw_module_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_pipeline_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_cmp_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_ldst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_tx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_mcu_bridge.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_main_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_dec_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/define_uart.vh D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_shift_reg_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_memory_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_decompressor_16b32b_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_reset_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_jtag_fsm_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_halt_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_sync_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_edge_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_codasip_startup_ctrl_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_top.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_mul_div_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/machine_timer.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/sync_reg.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_define.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ports_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/ascii2bin.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_2_to_1.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_1_to_2.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_rx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tap_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tck_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_regs.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codasip_memory_predictor_mem_t.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+wait_on_run synth_1
+launch_runs impl_1 -jobs 8
+wait_on_run impl_1
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+wait_on_run impl_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_project
+open_project D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_project
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_project
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.xpr
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+open_hw_target
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+close_project

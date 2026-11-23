@@ -1,0 +1,87 @@
+v0.4.11
+1. add flash lms verify on main start.
+
+v0.4.09 2026/11/13
+1. 增加public key生成.ihex功能
+2. 增加功能烧写public key ihex功能
+3. 修改版本为v0.4.09
+
+
+***加签名到文件：python tool/sign_ihex.py
+
+***生成公钥烧写文件.hex
+# 默认读取 output/test_signed.pub.bin，输出 output/test_signed.pub.ihex
+python tool/public_key_ihex.py
+# 指定输入和输出（输出必须与输入不同）
+python tool/public_key_ihex.py output/test_signed.pub.bin -o output/public_key.ihex
+
+***升级程序
+python tools/flash_upload.py --port COM3
+
+***升级public key
+python tools/flash_upload.py --port COM3
+选择public key .ihex文件
+
+Flash 容量为 4 MiB，当前布局如下（地址为闭区间）：
+
+| Flash 地址 | 大小 | 内容 |
+| --- | --- | --- |
+| 0x000000 .. 0x000FFF | 4 KiB | 未分配，禁止烧录 |
+| 0x001000 .. 0x020FFF | 128 KiB | IMEM 镜像 |
+| 0x021000 .. 0x024FFF | 16 KiB | DMEM 初始值镜像 |
+| 0x025000 .. 0x025FFF | 4 KiB | 签名证书（原始 LMS 签名，剩余填 FF） |
+| 0x026000 .. 0x026FFF | 4 KiB | 公钥独立扇区，48 字节原始 LMS 公钥，其余保留 |
+| 0x027000 .. 0x3FFFFF | 3940 KiB | unused，禁止烧录 |
+
+
+
+v0.4.08 2026/11/13
+1. change version to v0.4.08
+2. 本次同步修改了 `tools/flash_upload.py` 和 `source/flash_cmd.c`，允许
+Flash `0x1000..0x25fff` 的物理地址，并把旧格式 CPU DRAM 地址映射到
+RTL 当前使用的 `0x21000`。
+
+加签名到文件：python tool/sign_ihex.py
+
+
+升级程序
+python tools/flash_upload.py --port COM3
+
+
+v0.4.07 2026/11/13
+1. change version to v0.4.07
+2. remove LMS_VERIFY_ONLY in makefile.
+2. rebuild code
+
+v0.4.06 2026/11/11
+1: add SPI flash command
+
+v0.4.05 2026/11/09
+1: change veersion to 0.4.05
+2. add i2c master test command. 
+test ok， 
+valid address on FPGA board: 0x21(7-bit) \i2ctest 0 42 0 0
+
+
+
+v0.4.04 2026/11/05
+1; change spi speed from 2 to 5(7.5M to 937K)
+2: SPI 0/1/2 test ok，读取JDEC ID: 0x20,0x40,0x16
+
+v0.4.03 2026/11/05
+1. add spi device read/write, not work yet
+
+v0.4.02 2026/11/04
+1: add spi test command
+
+v0.4.01 2026/11/03
+1. delete unused file axi_brdg.c
+2. delete unused file default_new.lds
+3. move lms self test and benchmark test to command,(0=self-test, 1=benchmark)"
+
+
+v0.4.00 2026/11/03
+
+1. 修改prj17_vr_v1_07_fpga_riscv_fw, 删除dp, spi, fat,lms等操作，保留risc v相关
+2. 搭配最新codasip IP, FPGA项目 project_fpga_riscv_v0.2， 工作正常, LMS bench mark测试通过
+
