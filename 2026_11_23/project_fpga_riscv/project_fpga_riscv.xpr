@@ -3,7 +3,7 @@
 <!--                                                         -->
 <!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.   -->
 
-<Project Version="7" Minor="54" Path="D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.xpr">
+<Project Version="7" Minor="54" Path="D:/FPGA_DEV/Github_combined/Github_combined_up/FPGA_DEV_Combined/2026_11_23/project_fpga_riscv/project_fpga_riscv.xpr">
   <DefaultLaunch Dir="$PRUNDIR"/>
   <Configuration>
     <Option Name="Id" Val="f3b363a2605847c3a1c7135ae23e4968"/>
@@ -651,7 +651,7 @@
           <Attr Name="UsedIn" Val="simulation"/>
         </FileInfo>
       </File>
-      <File Path="$PPRDIR/../../../2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_intf.sv">
+      <File Path="$PPRDIR/../../../../../2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_intf.sv">
         <FileInfo>
           <Attr Name="AutoDisabled" Val="1"/>
           <Attr Name="UsedIn" Val="synthesis"/>
@@ -830,7 +830,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dpsram_1280x8_synth_1" Type="Ft3:Synth" SrcSet="dpsram_1280x8" Part="xczu9eg-ffvb1156-2-i" ConstrsSet="dpsram_1280x8" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dpsram_1280x8_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../2026_09_07/project_fpga_riscv_v0.3/project_fpga_riscv.srcs/utils_1/imports/dpsram_1280x8_synth_1">
+    <Run Id="dpsram_1280x8_synth_1" Type="Ft3:Synth" SrcSet="dpsram_1280x8" Part="xczu9eg-ffvb1156-2-i" ConstrsSet="dpsram_1280x8" Description="Vivado Synthesis Defaults" AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" Dir="$PRUNDIR/dpsram_1280x8_synth_1" IncludeInArchive="true" AutoIncrementalDir="$PPRDIR/../../../../../2026_09_07/project_fpga_riscv_v0.3/project_fpga_riscv.srcs/utils_1/imports/dpsram_1280x8_synth_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Synthesis Defaults" Flow="Vivado Synthesis 2020"/>
         <Step Id="synth_design"/>
@@ -892,7 +892,7 @@
       <Report Name="ROUTE_DESIGN.REPORT_METHODOLOGY" Enabled="1"/>
       <RQSFiles/>
     </Run>
-    <Run Id="dpsram_1280x8_impl_1" Type="Ft2:EntireDesign" Part="xczu9eg-ffvb1156-2-i" ConstrsSet="dpsram_1280x8" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dpsram_1280x8_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../2026_09_07/project_fpga_riscv_v0.3/project_fpga_riscv.srcs/utils_1/imports/dpsram_1280x8_impl_1">
+    <Run Id="dpsram_1280x8_impl_1" Type="Ft2:EntireDesign" Part="xczu9eg-ffvb1156-2-i" ConstrsSet="dpsram_1280x8" Description="Default settings for Implementation." AutoIncrementalCheckpoint="false" WriteIncrSynthDcp="false" SynthRun="dpsram_1280x8_synth_1" IncludeInArchive="false" GenFullBitstream="true" AutoIncrementalDir="$PPRDIR/../../../../../2026_09_07/project_fpga_riscv_v0.3/project_fpga_riscv.srcs/utils_1/imports/dpsram_1280x8_impl_1">
       <Strategy Version="1" Minor="2">
         <StratHandle Name="Vivado Implementation Defaults" Flow="Vivado Implementation 2020"/>
         <Step Id="init_design"/>

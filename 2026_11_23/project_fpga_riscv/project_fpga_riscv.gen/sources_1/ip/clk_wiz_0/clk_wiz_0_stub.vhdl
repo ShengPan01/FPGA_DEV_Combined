@@ -1,10 +1,10 @@
 -- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
 -- --------------------------------------------------------------------------------
 -- Tool Version: Vivado v.2020.2 (win64) Build 3064766 Wed Nov 18 09:12:45 MST 2020
--- Date        : Mon Nov 16 18:42:28 2026
+-- Date        : Mon Nov 23 12:09:38 2026
 -- Host        : DESKTOP-566HR3S running 64-bit major release  (build 9200)
 -- Command     : write_vhdl -force -mode synth_stub
---               d:/FPGA_DEV/Codex/Debug/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
+--               d:/FPGA_DEV/Github_combined/Github_combined_up/FPGA_DEV_Combined/2026_11_23/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_stub.vhdl
 -- Design      : clk_wiz_0
 -- Purpose     : Stub declaration of top-level module interface
 -- Device      : xczu9eg-ffvb1156-2-i

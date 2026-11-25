@@ -1,0 +1,12 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Mon Nov 23 12:08:55 2026
+# Process ID: 13776
+# Current directory: D:/FPGA_DEV/Github_combined/Github_combined_up/FPGA_DEV_Combined/2026_11_23/project_fpga_riscv/project_fpga_riscv.runs/s_32kx32_synth_1
+# Command line: vivado.exe -log s_32kx32.vds -product Vivado -mode batch -messageDb vivado.pb -notrace -source s_32kx32.tcl
+# Log file: D:/FPGA_DEV/Github_combined/Github_combined_up/FPGA_DEV_Combined/2026_11_23/project_fpga_riscv/project_fpga_riscv.runs/s_32kx32_synth_1/s_32kx32.vds
+# Journal file: D:/FPGA_DEV/Github_combined/Github_combined_up/FPGA_DEV_Combined/2026_11_23/project_fpga_riscv/project_fpga_riscv.runs/s_32kx32_synth_1\vivado.jou
+#-----------------------------------------------------------
+source s_32kx32.tcl -notrace
