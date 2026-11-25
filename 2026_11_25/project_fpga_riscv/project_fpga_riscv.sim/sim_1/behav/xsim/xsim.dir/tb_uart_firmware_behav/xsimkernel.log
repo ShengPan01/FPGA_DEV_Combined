@@ -1,0 +1,4 @@
+Running: xsim.dir/tb_uart_firmware_behav/xsimk.exe -simmode gui -testplusarg FW_IHEX=D:/FPGA_DEV/Codex/temp/riscv_fw_base/output/test.ihex -testplusarg TIMEOUT_MS=40000 -wdb tb_uart_firmware_behav.wdb -simrunnum 0 -socket 65235
+Design successfully loaded
+Design Loading Memory Usage: 10716 KB (Peak: 10716 KB)
+Design Loading CPU Usage: 0 ms

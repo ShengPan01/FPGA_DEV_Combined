@@ -1,0 +1,101 @@
+2026/11/24：
+1：增加硬件SHA256计算加速
+| `project_fpga_riscv/rtl/rtl_sha256/sha256_accel.v` | 新增 SHA‑256 迭代压缩核心、链式状态和 MMIO 寄存器 |
+| `project_fpga_riscv/rtl/top.v` | 实例化加速核心并接入 bus1 |
+| `project_fpga_riscv/project_fpga_riscv.xpr` | 将新增 RTL 纳入工程源文件 |
+
+2: 增加SHA256加速仿真 
+| `project_fpga_riscv/sim/test_sha256_fw.c` | 新增运行在 RISC‑V 核上的摘要与 LMS 验证自测 |
+| `project_fpga_riscv/sim/tb_sha256_cpu.sv` | 新增 CPU、总线、BRAM 和 SHA 核的联合仿真及超时注入 |
+| `project_fpga_riscv/sim/test_sha256_cpu.cpp` | 加载测试固件，检查成功结果、硬件请求和 CPU 周期 |
+| `project_fpga_riscv/sim/run_sha256_cpu_test.py` | 构建并运行硬件、纯软件和硬件超时三种测试 |
+
+3. 修改chip_version.vh , change h/w version to 03
+
+2026/11/23：
+1. update rtl/chip_version.vh, change h/w version to 02
+
+
+2026/11/16：
+1. add debug core
+2. add hw cfg for h/w version 0.1
+3. add led status for uart_data_err, data_rdy_o, flash_boot_busy, flash_boot_error, flash_boot_done
+4. uart mode download worked ok with FW version 0.4.11
+
+
+2026/11/13 - synthesis / implementation warning maintenance
+1. Make bridge state/protocol constants explicit localparams (Synth 8-2507).
+2. Explicitly leave unused I2C arbitration/debug outputs open (Synth 8-7071/8-7023).
+3. Replace the SPI RAM IP's default 50 MHz OOC constraints with
+   constraints/dpsram_ooc.xdc, included only in the dpsram_1280x8 synthesis fileset.
+   The generated default OOC XDC is disabled for synthesis in the project.
+   Port A/B periods are 36.663/16.665 ns, matching the current clock wizard.
+   Update these constraints if the input clock or PLL output dividers change.
+   RAM power-estimation clock settings are nominally 27.27273/60 MHz.
+4. Configure clock-wizard input jitter in ps: round 33.33 ps up to 34 ps.
+5. scripts/power_activity.tcl is the post-route power-analysis hook.
+   It assumes normal execution after Flash/UART boot: external active-high
+   resets are low and internal active-low resets are high. This removes
+   misleading vectorless reset activity; it does not change RTL or timing.
+   Power figures exclude startup, loading and reset intervals, and are not
+   a substitute for workload-specific SAIF-based power analysis.
+6. Preserve CPU DSP mapping, latency and asynchronous reset behavior.
+   Retained advisories: DPIP-2, DPOP-3, DPOP-4, DPIR-2 and SYNTH-10.
+   Vivado 2020.2 also emits Common 17-576 from its generated IP-cache command
+   and Vivado_Tcl 4-1400 during default placement on this single-SLR device.
+   No warning suppression or DRC severity downgrades were added.
+7. Validated with Vivado 2020.2: synthesis and implementation complete,
+   top.bit generated; routed WNS +0.607 ns, WHS +0.010 ns, TNS/THS zero.
+   Existing external I/O delay constraints remain incomplete; these timing
+   results apply to the currently specified constraints, not board signoff.
+
+2026/11/13
+1：add LED to show flash_boot_done, flash_boot_error
+GPIO_LED_0: flash_boot_done
+GPIO_LED_1: flash_boot_error
+
+2. change DRAM flash load address: from 0x20_0000 to 0x2_1000
+3: boot from flash succeed.
+Flash 物理地址范围 	大小	            当前用途 	                    加载到 CPU 地址  
+0x000000–0x000FFF	 4 KiB 	     当前固件未分配	
+0x001000–0x020FFF	128 KiB	     IMEM 镜像：代码、只读数据等	     0x00001000–0x00020FFF
+0x021000–0x1FFFFF   1916 KiB 	     当前固件未分配	
+0x200000–0x21FFFF	128 KiB	     DMEM 镜像：.data、.sdata 等初始值	0x7FF80000–0x7FF9FFFF
+0x220000–0x3FFFFF	1920 KiB		
+4： changed files:
+top.v
+top.xdc
+tb_flash_system_xsim.sv
+5. 配套软件： riscv_fw_base v0.4.06			
+
+
+2026/11/10：
+project_fpga_riscv_v0.5
+1. change folder version to v0.5
+2. add function to boot from flash
+3. add simulation for flash boot 
+
+
+2026/11/10
+project_fpga_riscv_v0.4
+1. change top.v, bk3imcpj_wrapper
+connect interrupt to 0, TDO to no connect
+     .interrupt(1'b0),
+     .TDO()
+2. add folder sim for FW simulation, ihex to mem, tcl for simulation
+3. add tb_firmware.sv in testbench folder for fw simuation
+4. use tcl or run simulation in GUI pass
+
+
+2026/11/05
+1. change clk_wiz_0 to outoput 27M osc clk and 60M SPI clock.
+2. change spi/i2c reset input to osc_reset_n
+
+2026/11/04
+project_fpga_riscv_v0.3
+1: add SPI
+2. for SPI buffer, add dpsram_1280x8 module from block memory generator (bit width 8, depth 1280)
+3. add spi pin in xdc file 
+
+project_fpga_riscv_v0.2
+1.  change risc v IP to codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1

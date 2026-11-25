@@ -1,0 +1,93 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../rtl" --include "../../../../rtl/rtl_riscv/uart" --include "../../../../project_fpga_riscv.gen/sources_1/ip/clk_wiz_0" \
+"../../../../project_fpga_riscv.gen/sources_1/ip/dpsram_1280x8/sim/dpsram_1280x8.v" \
+"../../../../project_fpga_riscv.gen/sources_1/ip/s_32kx32/sim/s_32kx32.v" \
+"../../../../project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" \
+"../../../../project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" \
+"../../../../rtl/rtl_riscv/uart/ascii2bin.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_d_ff_plain_rst_we_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_shift_reg_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codasip_memory_predictor_mem_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/codasip_reset_gen_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_codasip_startup_ctrl_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_csr_file_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_dec_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_decompressor_16b32b_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_alu_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_cmp_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_memory_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_mul_div_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_output_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_output_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_halt_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_jtag_fsm_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_main_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_npc_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipe_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipeline_control_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ports_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_reset_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_output_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_fetch_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_ldst_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_bw_module_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_clk_domain_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_sync_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tap_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tck_domain_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_pipeline_rst_we_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_we_t.v" \
+"../../../../rtl/rtl_i2c_master/ddc_inter_ctrl_hds.v" \
+"../../../../rtl/rtl_riscv/uart/hex_analysis.v" \
+"../../../../rtl/rtl_hw_cfg/hw_cfg.v" \
+"../../../../rtl/rtl_i2c_master/i2c_m_bus_detect_hds.v" \
+"../../../../rtl/rtl_i2c_master/i2c_m_fsm_hds.v" \
+"../../../../rtl/rtl_i2c_master/i2c_m_glitch_hds.v" \
+"../../../../rtl/rtl_i2c_master/i2c_master_hds.v" \
+"../../../../rtl/rtl_i2c_master/i2c_master_regs.v" \
+"../../../../rtl/rtl_i2c_master/i2c_master_top.v" \
+"../../../../rtl/rtl_i2c_master/i2c_master_wrapper.v" \
+"../../../../rtl/rtl_debounce/pin_debounce.v" \
+"../../../../rtl/reset_sync.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_edge_rst_t.v" \
+"../../../../rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_rst_t.v" \
+"../../../../rtl/rtl_i2c_master/soft2ddc_fifo_hds.v" \
+"../../../../rtl/rtl_spi_master/spi.v" \
+"../../../../rtl/rtl_spi_master/spi_buf_wrapper.v" \
+"../../../../rtl/spi_flash_boot.v" \
+"../../../../rtl/rtl_spi_master/spi_regs.v" \
+"../../../../rtl/rtl_riscv/uart/sync_reg.v" \
+"../../../../rtl/rtl_time_pulse/time_pulse.v" \
+"../../../../rtl/top.v" \
+"../../../../rtl/rtl_riscv/uart/uart_regs.v" \
+"../../../../rtl/rtl_riscv/uart/uart_rx.v" \
+"../../../../rtl/rtl_riscv/uart/uart_top.v" \
+"../../../../rtl/rtl_riscv/uart/uart_tx.v" \
+
+sv xil_defaultlib  --include "../../../../rtl" --include "../../../../rtl/rtl_riscv/uart" --include "../../../../project_fpga_riscv.gen/sources_1/ip/clk_wiz_0" \
+"../../../../rtl/rtl_riscv/axi_lite_1_to_2.sv" \
+"../../../../rtl/rtl_riscv/axi_lite_2_to_1.sv" \
+"../../../../rtl/rtl_riscv/axi_lite_intf.sv" \
+"../../../../rtl/rtl_riscv/axi_lite_mcu_bridge.sv" \
+"../../../../rtl/rtl_riscv/bk3imcpj_wrapper.sv" \
+"../../../../rtl/rtl_riscv/machine_timer.sv" \
+"../../../../rtl/testbench/tb_firmware.sv" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

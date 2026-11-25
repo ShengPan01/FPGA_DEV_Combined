@@ -1,0 +1,14 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  --include "../../../../rtl/rtl_riscv/uart" --include "../../../../rtl" --include "../../../../project_fpga_riscv.gen/sources_1/ip/clk_wiz_0" \
+"../../../../project_fpga_riscv.gen/sources_1/ip/dpsram_1280x8/sim/dpsram_1280x8.v" \
+"../../../../rtl/rtl_spi_master/spi.v" \
+"../../../../rtl/rtl_spi_master/spi_buf_wrapper.v" \
+"../../../../rtl/rtl_spi_master/spi_regs.v" \
+"../../../../rtl/rtl_riscv/uart/sync_reg.v" \
+"../../../../rtl/testbench/testbench_top.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

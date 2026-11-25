@@ -1,0 +1,1248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Product Version: Vivado v2020.2 (64-bit)                     -->
+<!--                                                              -->
+<!-- Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.        -->
+
+<hwsession version="1" minor="2">
+  <device name="xczu9_0" gui_info="dashboard1=hw_ila_1[xczu9_0/hw_ila_1/Status=ILA_STATUS_1;xczu9_0/hw_ila_1/Settings=ILA_SETTINGS_1;xczu9_0/hw_ila_1/Trigger Setup=ILA_TRIGGER_1;xczu9_0/hw_ila_1/Capture Setup=ILA_CAPTURE_1;xczu9_0/hw_ila_1/Waveform=ILA_WAVE_1;]"/>
+  <ObjectList object_type="hw_device" gui_info="">
+    <Object name="xczu9_0" gui_info="">
+      <Properties Property="FULL_PROBES.FILE" value="$_project_name_.runs/impl_1/top.ltx"/>
+      <Properties Property="PROBES.FILE" value="$_project_name_.runs/impl_1/top.ltx"/>
+      <Properties Property="PROGRAM.HW_BITSTREAM" value="$_project_name_.runs/impl_1/top.bit"/>
+      <Properties Property="SLR.COUNT" value="1"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_ila" gui_info="">
+    <Object name="" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="ila_boot" gui_info="">
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+    <Object name="u_ila_0" gui_info="">
+      <Properties Property="CONTROL.CAPTURE_MODE" value="ALWAYS"/>
+      <Properties Property="CONTROL.DATA_DEPTH" value="256"/>
+      <Properties Property="CONTROL.TRIGGER_CONDITION" value="AND"/>
+      <Properties Property="CONTROL.TRIGGER_POSITION" value="32"/>
+      <Properties Property="CORE_REFRESH_RATE_MS" value="500"/>
+    </Object>
+  </ObjectList>
+  <ObjectList object_type="hw_probe" gui_info="">
+    <Object name="bk3imcpj_wrapper/dbg_boot_status[7:0]" gui_info=""/>
+    <Object name="bk3imcpj_wrapper/dbg_if_addr[31:0]" gui_info=""/>
+    <Object name="bk3imcpj_wrapper/dbg_if_status[5:0]" gui_info=""/>
+    <Object name="bk3imcpj_wrapper/dbg_load_addr[31:0]" gui_info=""/>
+    <Object name="bk3imcpj_wrapper/dbg_load_en[8:0]" gui_info="Capture Setup=0"/>
+    <Object name="bk3imcpj_wrapper/dbg_seen[7:0]" gui_info=""/>
+    <Object name="data_rdy_o" gui_info=""/>
+  </ObjectList>
+  <probeset name="hw project" active="false">
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq4&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[3:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq4&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+        <Option Id="ENUM.STATE_DEBUG_MODE" value="eq4&apos;b0001"/>
+        <Option Id="ENUM.STATE_DEBUG_WAIT" value="eq4&apos;b0100"/>
+        <Option Id="ENUM.STATE_USER_MODE" value="eq4&apos;b1000"/>
+        <Option Id="ENUM.STATE_USER_WAIT" value="eq4&apos;b0010"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="BINARY"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe9[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_boot_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe26[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_raddr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe23[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_rdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq2&apos;hX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe5[1:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq2&apos;hX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_read_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_read_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="BINARY"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe1[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_status[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe3[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_waddr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe16[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_data_wdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe12[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_fetch_count[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe24[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_addr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe19[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_if_data[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_data[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe17[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_if_status[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_status[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_if_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq15&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq15&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe18[14:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq15&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_addr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq6&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe20[5:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq6&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_ctrl[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe2[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_din[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe25[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_imem_dout[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe10[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_last_if_addr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe15[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_addr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe0[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_load_count[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_count[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe13[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_load_data[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_data[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq9&apos;b1_XXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq9&apos;hXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe11[8:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq9&apos;hXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_load_en[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_load_en[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq16&apos;hXXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe8[15:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq16&apos;hXXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_addr[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe4[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe16[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_rdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq5&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq5&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe7[4:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq5&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_mcu_status[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe22[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_mcu_wdata[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq8&apos;hXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="BINARY"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe21[7:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq8&apos;hXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_seen[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_seen[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe14[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_status[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="bus" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe6[31:0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq32&apos;hXXXX_XXXX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[31]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[30]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[29]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[28]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[27]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[26]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[25]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[24]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[23]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[22]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[21]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[20]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[19]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[18]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[17]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[16]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[15]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[14]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[13]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[12]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[11]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[10]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[9]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[8]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[7]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[6]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[5]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[4]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[3]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[2]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[1]"/>
+        <net name="bk3imcpj_wrapper/dbg_uart_tx_count[0]"/>
+      </nets>
+    </probe>
+    <probe type="ila" busType="net" source="netlist" spec="ILA_V2_RT">
+      <probeOptions Id="DebugProbeParams">
+        <Option Id="CAPTURE_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="COMPARE_VALUE.0" value="eq1&apos;bX"/>
+        <Option Id="DISPLAY_AS_ENUM" value="1"/>
+        <Option Id="DISPLAY_HINT" value=""/>
+        <Option Id="DISPLAY_RADIX" value="HEX"/>
+        <Option Id="DISPLAY_VISIBILITY" value=""/>
+        <Option Id="HW_ILA" value="hw_ila_1"/>
+        <Option Id="LINK_TO_WAVEFORM" value="1"/>
+        <Option Id="MAP" value="probe27[0]"/>
+        <Option Id="NAME.CUSTOM" value=""/>
+        <Option Id="NAME.SELECT" value="Long"/>
+        <Option Id="SOURCE" value="netlist"/>
+        <Option Id="TRIGGER_COMPARE_VALUE" value="eq1&apos;bX"/>
+        <Option Id="WAVEFORM_STYLE" value="Digital"/>
+      </probeOptions>
+      <nets>
+        <net name="data_rdy_o"/>
+      </nets>
+    </probe>
+  </probeset>
+</hwsession>

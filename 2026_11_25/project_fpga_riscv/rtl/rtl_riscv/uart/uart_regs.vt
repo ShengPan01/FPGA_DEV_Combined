@@ -1,0 +1,25 @@
+//*****************************************************************************
+// Copyright (c) 2002 ~ 2009 Analogix Semiconductor Incorporated
+// All Rights Reserved
+//
+// THIS IS UNPUBLISHED PROPRIETARY SOURCE CODE of Analogix Semiconductor Inc.
+// The copyright notice above does not evidence any actual or intended
+// publication of such source code.
+//
+// No part of this code may be reproduced, stored in a retrieval system,
+// or transmitted, in any form or by any means, electronic, mechanical,
+// photocopying, recording, or otherwise, without the prior written
+// permission of Analogix Semiconductor Inc.
+//
+//*****************************************************************************
+//
+
+/*{
+
+set_base_addr_mapping {"Address: 0x00" 0000}
+
+proc register_filter {base offset} {
+    return 1
+}
+
+create_register_source ${macro_name} 0 "mcus"}*/

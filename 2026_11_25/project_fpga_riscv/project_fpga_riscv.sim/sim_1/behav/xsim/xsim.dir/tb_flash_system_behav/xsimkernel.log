@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_flash_system_behav/xsimk.exe -simmode gui -testplusarg FW_MEM=D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.4/sim/firmware.mem -wdb tb_flash_system_behav.wdb -simrunnum 0 -socket 62624
+Design successfully loaded
+Design Loading Memory Usage: 9528 KB (Peak: 9528 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 11724 KB (Peak: 11724 KB)
+Simulation CPU Usage: 0 ms

@@ -1,0 +1,235 @@
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/dpsram_1280x8/sim/dpsram_1280x8.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module dpsram_1280x8
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/s_32kx32/sim/s_32kx32.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module s_32kx32
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0_clk_wiz.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0_clk_wiz
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.gen/sources_1/ip/clk_wiz_0/clk_wiz_0.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clk_wiz_0
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/ascii2bin.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ascii2bin
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_d_ff_plain_rst_we_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bsc_d_ff_plain_rst_we_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_shift_reg_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bsc_shift_reg_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module clb2axilite
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codasip_memory_predictor_mem_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codasip_memory_predictor_mem_t_storage_subblock0_t
+INFO: [VRFC 10-311] analyzing module codasip_memory_predictor_mem_t_storage_t
+INFO: [VRFC 10-311] analyzing module codasip_memory_predictor_mem_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/codasip_reset_gen_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codasip_reset_gen_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_codasip_startup_ctrl_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_codasip_startup_ctrl_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_csr_file_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_csr_file_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_dec_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_dec_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_decompressor_16b32b_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_decompressor_16b32b_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_alu_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_alu_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_cmp_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_cmp_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_memory_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_memory_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_mul_div_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_mul_div_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_output_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_output_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ex_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_output_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_fe_output_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_fe_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_halt_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_halt_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_jtag_fsm_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_jtag_fsm_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_main_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_main_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_npc_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_npc_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipe_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_pipe_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipeline_control_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_pipeline_control_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ports_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_ports_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_reset_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_reset_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_rf_gpr_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_output_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_wb_output_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_core_wb_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_fetch_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_if_fetch_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_ldst_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_if_ldst_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_bw_module_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_client_bw_module_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_client_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_clk_domain_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_port_clk_domain_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_sync_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_port_sync_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_port_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tap_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_port_tap_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tck_domain_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_ca_nexus_port_tck_domain_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module codix_berkelium_top_ca
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_pipeline_rst_we_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff_pipeline_rst_we_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff_plain_rst_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_we_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module d_ff_plain_rst_we_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/ddc_inter_ctrl_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module ddc_inter_ctrl_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/hex_analysis.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hex_analysis
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_hw_cfg/hw_cfg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module hw_cfg_top
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_m_bus_detect_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_m_bus_detect_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_m_fsm_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_m_fsm_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_m_glitch_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_m_glitch_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_top
+INFO: [VRFC 10-2458] undeclared symbol reg_i2cm_glitch_sel, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:71]
+INFO: [VRFC 10-2458] undeclared symbol reg_i2cm_mode, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:72]
+INFO: [VRFC 10-2458] undeclared symbol reg_i2cm_no_stop, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:73]
+INFO: [VRFC 10-2458] undeclared symbol reg_i2cm_no_ack_ignore, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:74]
+INFO: [VRFC 10-2458] undeclared symbol reg_i2cm_eddc_no_ack, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:75]
+INFO: [VRFC 10-2458] undeclared symbol cmd_progress, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:78]
+INFO: [VRFC 10-2458] undeclared symbol timeout, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:79]
+INFO: [VRFC 10-2458] undeclared symbol i2cm_no_ack, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:80]
+INFO: [VRFC 10-2458] undeclared symbol master_err, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:81]
+INFO: [VRFC 10-2458] undeclared symbol fifo_full, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:83]
+INFO: [VRFC 10-2458] undeclared symbol fifo_empty, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:84]
+INFO: [VRFC 10-2458] undeclared symbol ext_occupy, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:85]
+INFO: [VRFC 10-2458] undeclared symbol intp_fifo_full, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:90]
+INFO: [VRFC 10-2458] undeclared symbol intp_fifo_empty, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:91]
+INFO: [VRFC 10-2458] undeclared symbol intp_fifo_half, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:92]
+INFO: [VRFC 10-2458] undeclared symbol intp_acc_done, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:93]
+INFO: [VRFC 10-2458] undeclared symbol reg_intp_fifo_full_clr, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:133]
+INFO: [VRFC 10-2458] undeclared symbol reg_intp_fifo_empty_clr, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:134]
+INFO: [VRFC 10-2458] undeclared symbol reg_intp_fifo_half_clr, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:135]
+INFO: [VRFC 10-2458] undeclared symbol reg_intp_acc_done_clr, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_top.v:136]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module i2c_master_wrapper
+INFO: [VRFC 10-2458] undeclared symbol reg_data_rdy, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:90]
+INFO: [VRFC 10-2458] undeclared symbol reg_busy, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:92]
+INFO: [VRFC 10-2458] undeclared symbol reg_link_free, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:93]
+INFO: [VRFC 10-2458] undeclared symbol no_ack, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:95]
+INFO: [VRFC 10-2458] undeclared symbol reg_start, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:101]
+INFO: [VRFC 10-2458] undeclared symbol reg_stop, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:102]
+INFO: [VRFC 10-2458] undeclared symbol reg_not_rdy, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/i2c_master_wrapper.v:103]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_debounce/pin_debounce.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module pin_debounce
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/reset_sync.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module reset_sync
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_edge_rst_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_edge_rst_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_rst_t.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module shift_reg_rst_t
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_i2c_master/soft2ddc_fifo_hds.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module soft2ddc_fifo_hds
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi
+INFO: [VRFC 10-2458] undeclared symbol spi_clk_out_en_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:63]
+INFO: [VRFC 10-2458] undeclared symbol spi_clk_out_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:64]
+INFO: [VRFC 10-2458] undeclared symbol spi_miso_out_en_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:65]
+INFO: [VRFC 10-2458] undeclared symbol spi_miso_out_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:66]
+INFO: [VRFC 10-2458] undeclared symbol spi_mosi_out_en_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:67]
+INFO: [VRFC 10-2458] undeclared symbol spi_mosi_out_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:68]
+INFO: [VRFC 10-2458] undeclared symbol spi_cs_out_en_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:69]
+INFO: [VRFC 10-2458] undeclared symbol spi_cs_out_gpio, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:70]
+INFO: [VRFC 10-2458] undeclared symbol reg_spi_mode, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:76]
+INFO: [VRFC 10-2458] undeclared symbol reg_rd_no_wait, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:77]
+INFO: [VRFC 10-2458] undeclared symbol reg_cs_end, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:78]
+INFO: [VRFC 10-2458] undeclared symbol reg_cs_start, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:79]
+INFO: [VRFC 10-2458] undeclared symbol reg_spi_op_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:81]
+INFO: [VRFC 10-2458] undeclared symbol reg_spi_op_en_sync, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:214]
+INFO: [VRFC 10-2458] undeclared symbol spi_op_done_toggle_sync, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi.v:346]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi_buf_wrapper.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_buf_wrapper
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/spi_flash_boot.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_flash_boot
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_spi_master/spi_regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module spi_regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/sync_reg.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module sync_reg
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_time_pulse/time_pulse.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module time_pulse
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module top
+INFO: [VRFC 10-2458] undeclared symbol osc_clk, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:59]
+INFO: [VRFC 10-2458] undeclared symbol spi_clk, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:60]
+INFO: [VRFC 10-2458] undeclared symbol clk_gen_locked, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:63]
+INFO: [VRFC 10-2458] undeclared symbol osc_reset_n, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:73]
+INFO: [VRFC 10-2458] undeclared symbol spi_reset_n, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:79]
+INFO: [VRFC 10-2458] undeclared symbol imu_sda_oen, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:154]
+INFO: [VRFC 10-2458] undeclared symbol imu_scl_oen, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:155]
+INFO: [VRFC 10-2458] undeclared symbol debug_rst_iic, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:161]
+INFO: [VRFC 10-2458] undeclared symbol spi_cs_out, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:213]
+INFO: [VRFC 10-2458] undeclared symbol spi_cs_out_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:214]
+INFO: [VRFC 10-2458] undeclared symbol spi_ck_out, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:217]
+INFO: [VRFC 10-2458] undeclared symbol spi_ck_out_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:218]
+INFO: [VRFC 10-2458] undeclared symbol spi_mosi_out, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:221]
+INFO: [VRFC 10-2458] undeclared symbol spi_mosi_out_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:222]
+INFO: [VRFC 10-2458] undeclared symbol spi_miso_out, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:225]
+INFO: [VRFC 10-2458] undeclared symbol spi_miso_out_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/top.v:226]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_regs.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_regs
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_rx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_rx
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_top
+INFO: [VRFC 10-2458] undeclared symbol reg_uart_ri_clr_sync, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:77]
+INFO: [VRFC 10-2458] undeclared symbol reg_uart_ti_clr, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:98]
+INFO: [VRFC 10-2458] undeclared symbol reg_uart_ti_clr_sync, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:98]
+INFO: [VRFC 10-2458] undeclared symbol tx_rdy_d_sync, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:180]
+INFO: [VRFC 10-2458] undeclared symbol reg_uart_ti_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:218]
+INFO: [VRFC 10-2458] undeclared symbol reg_uart_ri_en, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:219]
+WARNING: [VRFC 10-3380] identifier 'reg_uart_tx_busy' is used before its declaration [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_top.v:138]
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/uart/uart_tx.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module uart_tx
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/axi_lite_1_to_2.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_1_to_2
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/axi_lite_2_to_1.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_2_to_1
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/axi_lite_intf.sv" into library xil_defaultlib
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/axi_lite_mcu_bridge.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module axi_lite_mcu_bridge
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/bk3imcpj_wrapper.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module bk3imcpj_wrapper
+INFO: [VRFC 10-2458] undeclared symbol mtip, assumed default net type wire [D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/bk3imcpj_wrapper.sv:135]
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/rtl_riscv/machine_timer.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module machine_timer
+INFO: [VRFC 10-2263] Analyzing SystemVerilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/rtl/testbench/tb_uart_firmware.sv" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module tb_uart_firmware
+INFO: [VRFC 10-2263] Analyzing Verilog file "D:/FPGA_DEV/Codex/temp/project_fpga_riscv/project_fpga_riscv.sim/sim_1/behav/xsim/glbl.v" into library xil_defaultlib
+INFO: [VRFC 10-311] analyzing module glbl

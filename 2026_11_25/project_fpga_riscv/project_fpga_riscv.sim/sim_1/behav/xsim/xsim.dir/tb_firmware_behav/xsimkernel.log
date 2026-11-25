@@ -1,0 +1,7 @@
+Running: xsim.dir/tb_firmware_behav/xsimk.exe -simmode gui -testplusarg FW_MEM=D:/FPGA_DEV/Codex/Debug/project_fpga_riscv/sim/firmware.mem -wdb tb_firmware_behav.wdb -simrunnum 0 -socket 56150
+Design successfully loaded
+Design Loading Memory Usage: 10672 KB (Peak: 10672 KB)
+Design Loading CPU Usage: 0 ms
+Simulation completed
+Simulation Memory Usage: 22780 KB (Peak: 22780 KB)
+Simulation CPU Usage: 58827 ms
