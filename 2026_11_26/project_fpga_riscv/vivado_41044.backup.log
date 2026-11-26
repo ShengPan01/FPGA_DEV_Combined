@@ -1,0 +1,380 @@
+#-----------------------------------------------------------
+# Vivado v2020.2 (64-bit)
+# SW Build 3064766 on Wed Nov 18 09:12:45 MST 2020
+# IP Build 3064653 on Wed Nov 18 14:17:31 MST 2020
+# Start of session at: Fri Oct 30 15:22:27 2026
+# Process ID: 41044
+# Current directory: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent35124 D:\FPGA_DEV\2026_09_07\project_fpga_riscv_v0.2\project_fpga_riscv.xpr
+# Log file: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/vivado.log
+# Journal file: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+open_project: Time (s): cpu = 00:00:04 ; elapsed = 00:00:07 . Memory (MB): peak = 1088.977 ; gain = 0.000
+update_compile_order -fileset sources_1
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bk3imcpj_wrapper.sv -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bk3imcpj_wrapper.sv' with file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv'.
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_top_ca.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_top_ca.v' with file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v'.
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/clb2axilite.v -filesets [get_filesets *]
+INFO: [filemgmt 20-762] Replacing file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/clb2axilite.v' with file 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v'.
+update_files -from_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -to_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v -filesets [get_filesets *]
+ERROR: [Vivado 12-3481] Cannot replace a file with itself: 'D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v'
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+CRITICAL WARNING: [HDL 9-806] Syntax error near "non-printable character with the hex value '0xef'". [D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/top.v:64]
+[Fri Oct 30 15:40:25 2026] Launched synth_1...
+Run output will be captured here: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/synth_1/runme.log
+update_compile_order -fileset sources_1
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_ldst_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_ldst_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/machine_timer.sv] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/machine_timer.sv
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_memory_predictor_mem_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_codasip_startup_ctrl_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_reset_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_bw_module_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_memory_predictor_mem_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_codasip_startup_ctrl_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_reset_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_client_bw_module_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_clk_domain_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tck_domain_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_csr_file_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_npc_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_1_to_2.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_2_to_1.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_mcu_bridge.sv] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_reset_gen_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_clk_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tck_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_csr_file_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_npc_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_1_to_2.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_2_to_1.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_mcu_bridge.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codasip_reset_gen_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_dec_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_decompressor_16b32b_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_alu_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_cmp_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_memory_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_halt_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_jtag_fsm_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_main_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipe_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipeline_control_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ports_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_output_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_fetch_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_dec_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_decompressor_16b32b_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_alu_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_cmp_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_memory_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_fe_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_halt_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_jtag_fsm_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_main_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_pipeline_control_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ports_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_wb_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_if_fetch_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_sync_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_mul_div_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tap_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_sync_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_core_ex_mul_div_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/codix_berkelium_ca_nexus_port_tap_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_top.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_top.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_d_ff_plain_rst_we_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/hex_analysis.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_shift_reg_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_pipeline_rst_we_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_t.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/hex_analysis.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/bsc_shift_reg_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_pipeline_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_t.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_edge_rst_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_rst_t.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/sync_reg.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_regs.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_rx.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_tx.v] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_edge_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/shift_reg_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/sync_reg.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_regs.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_rx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_tx.v}
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/ascii2bin.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/ascii2bin.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_we_t.v] -no_script -reset -force -quiet
+remove_files  D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/d_ff_plain_rst_we_t.v
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_define.v] -no_script -reset -force -quiet
+export_ip_user_files -of_objects  [get_files D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/define_uart.vh] -no_script -reset -force -quiet
+remove_files  {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/uart_define.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/define_uart.vh}
+add_files {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/clb2axilite/clb2axilite.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/bk3imcpj_wrapper.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_pipeline_control_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_csr_file_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_clk_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_npc_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_intf.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_alu_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_fetch_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_inner_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/codasip_reset_gen_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/hex_analysis.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_bw_module_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_barrel_shifter_32_inline_1_inline_1_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_pipeline_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_cmp_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_rf_gpr_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_if_ldst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_tx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_mcu_bridge.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_main_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_we_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_dec_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/define_uart.vh D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/bsc_shift_reg_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_memory_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_decompressor_16b32b_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_reset_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_jtag_fsm_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_halt_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_sync_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/shift_reg_edge_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_codasip_startup_ctrl_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_top.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ex_mul_div_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/machine_timer.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/common/d_ff_plain_rst_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/sync_reg.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_define.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_top_ca.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_ports_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/ascii2bin.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_2_to_1.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_1_to_2.sv D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_fe_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_rx.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_core_wb_output_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_client_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tap_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codix_berkelium_ca_nexus_port_tck_domain_t.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/uart/uart_regs.v D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/codix-bk-bk3-32IMC-pj16d-CORE-AXIL2-1.4.0-6.6.1/hdk/rtl/verilog/codix_berkelium_ca/codasip_memory_predictor_mem_t.v}
+update_compile_order -fileset sources_1
+reset_run synth_1
+launch_runs synth_1 -jobs 8
+WARNING: [HDL 9-3756] overwriting previous definition of interface 'axi_lite_intf' [D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_intf.sv:2]
+WARNING: [filemgmt 20-1318] Duplicate Design Unit 'axi_lite_intf()' found in library 'xil_defaultlib'
+Duplicate found at line 2 of file D:/FPGA_DEV/2026_09_07/project_fpga_riscv/rtl/bk3imcpj_wrapper/axi_lite_intf.sv
+	(Active) Duplicate found at line 2 of file D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/rtl/rtl_riscv/axi_lite_intf.sv
+[Fri Oct 30 15:52:32 2026] Launched synth_1...
+Run output will be captured here: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/synth_1/runme.log
+launch_runs impl_1 -jobs 8
+[Fri Oct 30 15:54:48 2026] Launched impl_1...
+Run output will be captured here: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/runme.log
+launch_runs impl_1 -to_step write_bitstream -jobs 8
+[Fri Oct 30 15:56:58 2026] Launched impl_1...
+Run output will be captured here: D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/runme.log
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 1088.977 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+open_hw_target: Time (s): cpu = 00:00:03 ; elapsed = 00:00:05 . Memory (MB): peak = 2651.867 ; gain = 1562.891
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:08 ; elapsed = 00:00:15 . Memory (MB): peak = 2681.656 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_project
+open_project D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.xpr
+INFO: [Project 1-313] Project file moved from 'D:/FPGA_DEV/2026_09_07/prj17_vr_v1_07' since last save.
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+WARNING: [IP_Flow 19-2162] IP 'div_u' is locked:
+* IP definition 'Divider Generator (5.1)' for IP 'div_u' (customized with software release 2017.1) has a different revision in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'div_u' do not match.
+WARNING: [IP_Flow 19-2162] IP 'vbist_mem_32kx24' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'vbist_mem_32kx24' (customized with software release 2017.1) has a newer minor version in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'vbist_mem_32kx24' do not match.
+WARNING: [IP_Flow 19-2162] IP 'dpsram_4x128' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'dpsram_4x128' (customized with software release 2017.1) has a newer minor version in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'dpsram_4x128' do not match.
+WARNING: [IP_Flow 19-2162] IP 'axi_crossbar_1' is locked:
+* IP definition 'AXI Crossbar (2.1)' for IP 'axi_crossbar_1' (customized with software release 2017.1) has a different revision in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'axi_crossbar_1' do not match.
+WARNING: [IP_Flow 19-2162] IP 'ddr4_0' is locked:
+* IP definition 'DDR4 SDRAM (MIG) (2.2)' for IP 'ddr4_0' (customized with software release 2017.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'xilinx.com:zcu102:part0:3.4' and the board 'xilinx.com:zcu102:part0:3.0' used to customize the IP 'ddr4_0' do not match. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'ddr4_0' do not match. * IP 'ddr4_0' contains one or more locked subcores.
+WARNING: [IP_Flow 19-2162] IP 'dpsram_1280x8' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 'dpsram_1280x8' (customized with software release 2017.1) has a newer minor version in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'dpsram_1280x8' do not match.
+WARNING: [IP_Flow 19-2162] IP 's_32kx32' is locked:
+* IP definition 'Block Memory Generator (8.3)' for IP 's_32kx32' (customized with software release 2017.1) has a newer minor version in the IP Catalog. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 's_32kx32' do not match.
+WARNING: [IP_Flow 19-3664] IP 'clk_wiz_0' generated file not found 'd:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/ip/clk_wiz_0/stats.txt'. Please regenerate to continue.
+WARNING: [IP_Flow 19-2162] IP 'clk_wiz_0' is locked:
+* IP definition 'Clocking Wizard (5.4)' for IP 'clk_wiz_0' (customized with software release 2017.1) has a newer major version in the IP Catalog. * IP definition 'Clocking Wizard (5.4)' for IP 'clk_wiz_0' (customized with software release 2017.1) has a different revision in the IP Catalog. * This IP has board specific outputs. Current project board 'xilinx.com:zcu102:part0:3.4' and the board 'xilinx.com:zcu102:part0:3.0' used to customize the IP 'clk_wiz_0' do not match. * Current project part 'xczu9eg-ffvb1156-2-e' and the part 'xczu9eg-ffvb1156-2-i' used to customize the IP 'clk_wiz_0' do not match.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:07 . Memory (MB): peak = 2789.223 ; gain = 0.250
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+WARNING: [Labtools 27-3361] The debug hub core was not detected.
+Resolution: 
+1. Make sure the clock connected to the debug hub (dbg_hub) core is a free running clock and is active.
+2. Make sure the BSCAN_SWITCH_USER_MASK device property in Vivado Hardware Manager reflects the user scan chain setting in the design and refresh the device.  To determine the user scan chain setting in the design, open the implemented design and use 'get_property C_USER_SCAN_CHAIN [get_debug_cores dbg_hub]'.
+For more details on setting the scan chain property, consult the Vivado Debug and Programming User Guide (UG908).
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:11 ; elapsed = 00:00:15 . Memory (MB): peak = 2802.926 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+WARNING: [Labtools 27-3089] Calibration is still in-progress.
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+INFO: [Labtools 27-3143] Calibration status change detected, refreshing MIG_1
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xczu9_0 and the probes file(s) D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx.
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device dummy_dap_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.ltx} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/prj17_vr_v1_08/prj17_vr.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 2806.816 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+WARNING: [Labtools 27-3089] Calibration is still in-progress.
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+INFO: [Labtools 27-3143] Calibration status change detected, refreshing MIG_1
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+close_project
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-2222] Launching hw_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+****** Xilinx hw_server v2020.2
+  **** Build date : Nov 18 2020 at 10:01:48
+    ** Copyright 1986-2020 Xilinx, Inc. All Rights Reserved.
+
+
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3417] Launching cs_server...
+INFO: [Labtools 27-2221] Launch Output:
+
+
+******** Xilinx cs_server v2020.2
+  ****** Build date   : Nov 04 2020-05:02:56
+    **** Build number : 2020.2.1604437376
+      ** Copyright 2017-2020 Xilinx, Inc. All Rights Reserved.
+
+
+
+connect_hw_server: Time (s): cpu = 00:00:00 ; elapsed = 00:00:08 . Memory (MB): peak = 2817.430 ; gain = 0.000
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:12 ; elapsed = 00:00:15 . Memory (MB): peak = 2817.801 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 ILA core(s).
+INFO: [Labtools 27-2302] Device xczu9 (JTAG device index = 0) is programmed with a design that has 1 MIG core(s).
+WARNING: [Labtools 27-1347] Unable to find Debug Probes file []. Please update hw_device property [PROBES.FILE]
+ Update of hw_probe objects, will be skipped.
+WARNING: [Labtools 27-1974] Mismatch between the design programmed into the device xczu9_0 and the probes file(s) .
+The device design has 1 ILA core(s) and 0 VIO core(s). 0 ILA core(s) and 0 VIO core(s) are matched in the probes file(s).
+Resolution: 
+1. Reprogram device with the correct programming file and associated probes file(s) OR
+2. Goto device properties and associate the correct probes file(s) with the programming file already programmed in the device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+ERROR: [Labtools 27-2312] Device dummy_dap_1 is no longer available.
+Check cable connectivity and that the target board is powered up then
+use the disconnect_hw_server and connect_hw_server to re-initialize the hardware target.
+Use open_hw_target to re-register the hardware device.
+WARNING: [Labtoolstcl 44-129] No matching hw_ila_data was found.
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:06 ; elapsed = 00:00:15 . Memory (MB): peak = 2818.859 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+close_project
+open_project D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.xpr
+Scanning sources...
+Finished scanning sources
+INFO: [IP_Flow 19-234] Refreshing IP repositories
+INFO: [IP_Flow 19-1704] No user IP repositories specified
+INFO: [IP_Flow 19-2313] Loaded Vivado IP repository 'C:/Xilinx/Vivado/2020.2/data/ip'.
+update_compile_order -fileset sources_1
+open_hw_manager
+connect_hw_server -allow_non_jtag
+INFO: [Labtools 27-2285] Connecting to hw_server url TCP:localhost:3121
+INFO: [Labtools 27-3415] Connecting to cs_server url TCP:localhost:3042
+INFO: [Labtools 27-3414] Connected to existing cs_server.
+open_hw_target
+INFO: [Labtoolstcl 44-466] Opening hw_target localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+current_hw_device [get_hw_devices xczu9_0]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+current_hw_device [get_hw_devices arm_dap_1]
+refresh_hw_device -update_hw_probes false [lindex [get_hw_devices arm_dap_1] 0]
+current_hw_device [get_hw_devices xczu9_0]
+set_property PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property FULL_PROBES.FILE {} [get_hw_devices xczu9_0]
+set_property PROGRAM.FILE {D:/FPGA_DEV/2026_09_07/project_fpga_riscv_v0.2/project_fpga_riscv.runs/impl_1/top.bit} [get_hw_devices xczu9_0]
+program_hw_devices [get_hw_devices xczu9_0]
+INFO: [Labtools 27-3164] End of startup status: HIGH
+program_hw_devices: Time (s): cpu = 00:00:10 ; elapsed = 00:00:15 . Memory (MB): peak = 2820.297 ; gain = 0.000
+refresh_hw_device [lindex [get_hw_devices xczu9_0] 0]
+INFO: [Labtools 27-1434] Device xczu9 (JTAG device index = 0) is programmed with a design that has no supported debug core(s) in it.
+ERROR: [Labtoolstcl 44-513] HW Target shutdown. Closing target: localhost:3121/xilinx_tcf/Digilent/210308A46ECC
+close_project

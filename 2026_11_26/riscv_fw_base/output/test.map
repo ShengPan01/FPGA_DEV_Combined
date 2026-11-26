@@ -1,0 +1,649 @@
+Archive member included to satisfy reference by file (symbol)
+
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memcpy.o)
+                              ./output/sha256.o (memcpy)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memset.o)
+                              ./output/crt0.o (memset)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strcmp.o)
+                              ./output/cmdline.o (strcmp)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strlen.o)
+                              ./output/flash_cmd.o (strlen)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivdi3.o)
+                              ./output/custom_test.o (__udivdi3)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivmoddi4.o)
+                              C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivdi3.o) (__udivmoddi4)
+C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(umoddi3.o)
+                              ./output/custom_test.o (__umoddi3)
+
+Discarded input sections
+
+ .codasip_relexprtab
+                0x0000000000000000      0x5ed ./output/crt0.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/flash_cmd.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/flash_verify.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/cmd_sys.o
+ .codasip_relexprtab
+                0x0000000000000000        0x9 ./output/cmd_sys_def.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/cmdline.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/custom_test.o
+ .codasip_relexprtab
+                0x0000000000000000        0x9 ./output/custom_test_def.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/main.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/mcu.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/printf.o
+ .codasip_relexprtab
+                0x0000000000000000        0x9 ./output/reg_acc.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/timer.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/uart_int.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/i2c_master.o
+ .codasip_relexprtab
+                0x0000000000000000      0x3d0 ./output/spi.o
+ .codasip_relexprtab
+                0x0000000000000000      0x2da ./output/debug.o
+ .codasip_relexprtab
+                0x0000000000000000      0x2da ./output/endian.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/sha256.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/lms.o
+ .codasip_relexprtab
+                0x0000000000000000      0x360 ./output/lms_selftest.o
+ .codasip_relexprtab
+                0x0000000000000000      0x69f C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memcpy.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x69f C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memset.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x3ab C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strcmp.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x214 C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strlen.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x1ac C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivdi3.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x69f C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivmoddi4.o)
+ .codasip_relexprtab
+                0x0000000000000000      0x1ac C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(umoddi3.o)
+
+Memory Configuration
+
+Name             Origin             Length             Attributes
+imem             0x0000000000001000 0x0000000000020000
+dmem             0x000000007ff80000 0x0000000000020000
+smem             0x0000000080000000 0x0000000000010000
+*default*        0x0000000000000000 0xffffffffffffffff
+
+Linker script and memory map
+
+LOAD ./output/crt0.o
+LOAD ./output/flash_cmd.o
+LOAD ./output/flash_verify.o
+LOAD ./output/cmd_sys.o
+LOAD ./output/cmd_sys_def.o
+LOAD ./output/cmdline.o
+LOAD ./output/custom_test.o
+LOAD ./output/custom_test_def.o
+LOAD ./output/main.o
+LOAD ./output/mcu.o
+LOAD ./output/printf.o
+LOAD ./output/reg_acc.o
+LOAD ./output/timer.o
+LOAD ./output/uart_int.o
+LOAD ./output/i2c_master.o
+LOAD ./output/spi.o
+LOAD ./output/debug.o
+LOAD ./output/endian.o
+LOAD ./output/sha256.o
+LOAD ./output/lms.o
+LOAD ./output/lms_selftest.o
+                0x0000000000001000                _TEXT_START_ADDR = DEFINED (_TEXT_START_ADDR)?_TEXT_START_ADDR:0x1000
+                0x0000000000000000                _HEAP_SIZE = DEFINED (_HEAP_SIZE)?_HEAP_SIZE:0x0
+                0x0000000000002000                _STACK_SIZE = DEFINED (_STACK_SIZE)?_STACK_SIZE:0x2000
+
+.text           0x0000000000001000     0x8f2e
+                0x0000000000001000                _ftext = .
+ *(SORT_BY_NAME(.crt*))
+ *(.text)
+ .text          0x0000000000001000      0x238 ./output/crt0.o
+                0x0000000000001000                _start
+                0x000000000000114c                enable_ext_intr
+                0x0000000000001164                enable_timer_intr
+                0x000000000000117c                disable_ext_intr
+                0x0000000000001194                disable_timer_intr
+                0x0000000000001200                dead_loop
+                0x000000000000121c                restart
+                0x0000000000001220                delay_10us
+                0x0000000000001234                _init
+                0x0000000000001234                _fini
+ .text          0x0000000000001238      0xf6c ./output/flash_cmd.o
+                0x0000000000001238                flash_begin
+                0x00000000000016d4                flash_abort
+                0x0000000000001706                flash_hex
+                0x0000000000001e64                flash_read
+ .text          0x00000000000021a4      0x64c ./output/flash_verify.o
+                0x00000000000021a4                flash_verify_on_boot
+ .text          0x00000000000027f0      0x4b2 ./output/cmd_sys.o
+                0x00000000000027f0                set_debug_mode
+                0x0000000000002840                read_register
+                0x00000000000028d4                write_register
+                0x000000000000298a                dump_registers
+                0x0000000000002c50                show_time
+                0x0000000000002c82                exit_proc
+ *fill*         0x0000000000002ca2        0x2 
+ .text          0x0000000000002ca4        0x0 ./output/cmd_sys_def.o
+ .text          0x0000000000002ca4      0x5fa ./output/cmdline.o
+                0x0000000000002ca4                hex_to_long
+                0x0000000000002d32                decode_term_str
+                0x0000000000002e46                search_proc_cmd
+                0x0000000000003058                proc_term_cmd
+                0x0000000000003246                CommandProcess
+ *fill*         0x000000000000329e        0x2 
+ .text          0x00000000000032a0     0x170e ./output/custom_test.o
+                0x00000000000032a0                i2c_read
+                0x000000000000334e                i2c_write
+                0x0000000000003430                i2c_test
+                0x00000000000036d0                show
+                0x0000000000003a8c                test_reg_access
+                0x0000000000003b40                dummy
+                0x0000000000003b72                lms_test
+                0x000000000000406c                spi_test
+ *fill*         0x00000000000049ae        0x2 
+ .text          0x00000000000049b0        0x0 ./output/custom_test_def.o
+ .text          0x00000000000049b0      0x276 ./output/main.o
+                0x00000000000049b0                main
+                0x0000000000004aa8                external_interrupt
+                0x0000000000004abe                puts_local
+                0x0000000000004b08                exception_handler
+                0x0000000000004be2                mtime_isr
+ *fill*         0x0000000000004c26        0x2 
+ .text          0x0000000000004c28      0x164 ./output/mcu.o
+                0x0000000000004c28                InitMCU
+                0x0000000000004c66                put_char
+                0x0000000000004cc8                delay_ms
+                0x0000000000004d3e                _debug_printf
+ .text          0x0000000000004d8c      0xb54 ./output/printf.o
+                0x0000000000004d8c                uli2a
+                0x0000000000004eec                tfp_format
+                0x000000000000571c                init_printf
+                0x0000000000005752                tfp_printf
+                0x00000000000057a0                tfp_sprintf
+ .text          0x00000000000058e0        0x0 ./output/reg_acc.o
+ .text          0x00000000000058e0      0x67a ./output/timer.o
+                0x00000000000058e0                init_timer
+                0x000000000000595e                set_timer_tick
+                0x0000000000005a54                timer_isr1
+                0x0000000000005bf6                timer_isr
+                0x0000000000005c60                time_gt
+                0x0000000000005d5e                get_str_time
+                0x0000000000005ec0                get_timer_tick
+ *fill*         0x0000000000005f5a        0x2 
+ .text          0x0000000000005f5c      0x606 ./output/uart_int.o
+                0x0000000000005f5c                init_serial
+                0x0000000000005fd0                putchar_local
+                0x00000000000060ac                add_char_to_ring_buffer
+                0x00000000000061fa                proc_serial_isr
+ *fill*         0x0000000000006562        0x2 
+ .text          0x0000000000006564      0x77a ./output/i2c_master.o
+                0x0000000000006564                i2cm_set_speed
+                0x00000000000065e8                i2cm_check_state
+                0x000000000000670c                i2cm_msg_read
+                0x0000000000006858                i2cm_read
+                0x00000000000069b2                i2cm_write
+                0x0000000000006ada                i2cm_read_block
+ *fill*         0x0000000000006cde        0x2 
+ .text          0x0000000000006ce0      0x28a ./output/spi.o
+                0x0000000000006ce0                spi_init
+                0x0000000000006d42                spi_send_cmd
+                0x0000000000006ed6                spi_buf_wr
+                0x0000000000006f20                spi_buf_rd
+ *fill*         0x0000000000006f6a        0x2 
+ .text          0x0000000000006f6c      0x448 ./output/debug.o
+                0x0000000000006f6c                put_digit
+                0x0000000000006fd2                simple_printf_no_arg
+                0x0000000000007028                simple_printf
+                0x00000000000072ee                TraceArray
+ .text          0x00000000000073b4      0x140 ./output/endian.o
+                0x00000000000073b4                put_bigendian
+                0x0000000000007456                get_bigendian
+ .text          0x00000000000074f4      0x85a ./output/sha256.o
+                0x00000000000074f4                SHA256_Init
+                0x00000000000075a2                SHA256_Update
+                0x000000000000771e                SHA256_Final
+ *fill*         0x0000000000007d4e        0x2 
+ .text          0x0000000000007d50     0x1442 ./output/lms.o
+                0x0000000000007d50                lms_params
+                0x0000000000007f00                lms_params_from_types
+                0x0000000000007fba                lms_verify_stream
+                0x0000000000008fdc                lms_verify
+ *fill*         0x0000000000009192        0x2 
+ .text          0x0000000000009194      0x610 ./output/lms_selftest.o
+                0x0000000000009194                lms_verify_selftest_timed
+                0x0000000000009458                lms_verify_selftest
+                0x0000000000009476                lms_verify_benchmark
+ .text          0x00000000000097a4       0x80 C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memcpy.o)
+                0x00000000000097a4                memcpy
+ .text          0x0000000000009824       0x7a C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memset.o)
+                0x0000000000009824                memset
+ *fill*         0x000000000000989e        0x2 
+ .text          0x00000000000098a0      0x11e C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strcmp.o)
+                0x00000000000098a0                strcmp
+ *fill*         0x00000000000099be        0x2 
+ .text          0x00000000000099c0       0x6a C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strlen.o)
+                0x00000000000099c0                strlen
+ *fill*         0x0000000000009a2a        0x2 
+ .text          0x0000000000009a2c        0x6 C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivdi3.o)
+                0x0000000000009a2c                __udivdi3
+ *fill*         0x0000000000009a32        0x2 
+ .text          0x0000000000009a34      0x4da C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivmoddi4.o)
+                0x0000000000009a34                __udivmoddi4
+ *fill*         0x0000000000009f0e        0x2 
+ .text          0x0000000000009f10       0x1e C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(umoddi3.o)
+                0x0000000000009f10                __umoddi3
+ *(.text.*)
+ *($.text)
+ *($.text.*)
+ *(.gnu.linkonce.t.*)
+ *(.text_jump_padding)
+                0x0000000000009f2e                _etext = .
+
+.init_location  0x0000000000009f2e        0x0
+                0x0000000000009f2e                . = ADDR (.init_location)
+
+.init
+ *(.init)
+
+.fini_location
+
+.fini
+ *(.fini)
+
+.rodata_location
+                0x0000000000009f2e        0x0
+                0x0000000000009f2e                . = ADDR (.rodata_location)
+
+.rodata         0x0000000000009f30     0xeedc
+                0x0000000000009f30                _frodata = .
+ *(.rodata)
+ .rodata        0x0000000000009f30       0x18 ./output/flash_cmd.o
+ .rodata        0x0000000000009f48       0x1c ./output/cmd_sys.o
+ .rodata        0x0000000000009f64       0xb1 ./output/cmd_sys_def.o
+                0x0000000000009f64                sys_cmds
+                0x000000000000a014                sys_n_cmds
+ *fill*         0x000000000000a015        0x3 
+ .rodata        0x000000000000a018        0x4 ./output/custom_test.o
+ .rodata        0x000000000000a01c       0x81 ./output/custom_test_def.o
+                0x000000000000a01c                custom_test_cmds
+                0x000000000000a09c                custom_test_n_cmds
+ *fill*         0x000000000000a09d        0x3 
+ .rodata        0x000000000000a0a0      0x10c ./output/sha256.o
+ .rodata        0x000000000000a1ac       0x40 ./output/lms.o
+ .rodata        0x000000000000a1ec     0xdcae ./output/lms_selftest.o
+ *(.rodata.*)
+ *fill*         0x0000000000017e9a        0x2 
+ .rodata.str1.1
+                0x0000000000017e9c       0xd1 ./output/flash_cmd.o
+                                         0xd3 (size before relaxing)
+ *fill*         0x0000000000017f6d        0x3 
+ .rodata.str1.1
+                0x0000000000017f70      0x130 ./output/flash_verify.o
+ .rodata.str1.1
+                0x00000000000180a0      0x1ee ./output/cmd_sys.o
+                                        0x1f2 (size before relaxing)
+ *fill*         0x000000000001828e        0x2 
+ .rodata.str1.1
+                0x0000000000018290      0x18e ./output/cmd_sys_def.o
+                                        0x192 (size before relaxing)
+ *fill*         0x000000000001841e        0x2 
+ .rodata.str1.1
+                0x0000000000018420       0x70 ./output/cmdline.o
+ .rodata.str1.1
+                0x0000000000018490      0x71b ./output/custom_test.o
+                                        0x793 (size before relaxing)
+ *fill*         0x0000000000018bab        0x1 
+ .rodata.str1.1
+                0x0000000000018bac      0x117 ./output/custom_test_def.o
+ *fill*         0x0000000000018cc3        0x1 
+ .rodata.str1.1
+                0x0000000000018cc4       0xc5 ./output/main.o
+                                         0xc9 (size before relaxing)
+ *fill*         0x0000000000018d89        0x3 
+ .rodata.str1.1
+                0x0000000000018d8c       0x13 ./output/timer.o
+ *fill*         0x0000000000018d9f        0x1 
+ .rodata.str1.1
+                0x0000000000018da0       0x66 ./output/i2c_master.o
+ *fill*         0x0000000000018e06        0x2 
+ .rodata.str1.1
+                0x0000000000018e08        0x4 ./output/sha256.o
+                                          0x2 (size before relaxing)
+ *(.gnu.linkonce.r.*)
+                0x0000000000018e0c                _erodata = .
+
+.ctors_location
+                0x000000007ff80000        0x0
+                0x000000007ff80000                . = ADDR (.ctors_location)
+
+.ctors          0x000000007ff80000        0x0
+                [!provide]                        PROVIDE (__CTOR_LIST__ = .)
+                [!provide]                        PROVIDE (___CTOR_LIST__ = .)
+ *(SORT_BY_NAME(.ctors.*))
+ *(.ctors)
+                [!provide]                        PROVIDE (__CTOR_END__ = .)
+                [!provide]                        PROVIDE (___CTOR_END__ = .)
+
+.dtors_location
+                0x000000007ff80000        0x0
+                0x000000007ff80000                . = ADDR (.dtors_location)
+
+.dtors          0x000000007ff80000        0x0
+                [!provide]                        PROVIDE (__DTOR_LIST__ = .)
+                [!provide]                        PROVIDE (___DTOR_LIST__ = .)
+ *(SORT_BY_NAME(.dtors.*))
+ *(.dtors)
+                [!provide]                        PROVIDE (__DTOR_END__ = .)
+                [!provide]                        PROVIDE (___DTOR_END__ = .)
+
+.data_location  0x000000007ff80000        0x0
+                0x000000007ff80000                . = ADDR (.data_location)
+
+.data           0x000000007ff80000       0x60
+                0x000000007ff80000                _fdata = .
+ *(.data)
+ .data          0x000000007ff80000       0x2c ./output/cmd_sys_def.o
+                0x000000007ff80000                sys_funcs
+ .data          0x000000007ff8002c       0x20 ./output/custom_test_def.o
+                0x000000007ff8002c                custom_test_funcs
+ .data          0x000000007ff8004c        0x1 ./output/mcu.o
+                0x000000007ff8004c                debug_verbose_level
+ *fill*         0x000000007ff8004d        0x3 
+ .data          0x000000007ff80050       0x10 ./output/timer.o
+                0x000000007ff80050                timer_tick_l
+                0x000000007ff80054                timer_tick_h
+                0x000000007ff80058                timer_cmp_l
+                0x000000007ff8005c                timer_cmp_h
+ *(.data.*)
+ *(.gnu.linkonce.d.*)
+
+.sdata_location
+                0x000000007ff80060        0x0
+                0x000000007ff80060                . = ADDR (.sdata_location)
+
+.sdata          0x000000007ff80060        0x0
+ *(.sdata)
+ *(.sdata.*)
+ *(.gnu.linkonce.s.*)
+                0x000000007ff80060                _edata = .
+                0x0000000000000001                ASSERT ((_edata <= (ORIGIN (dmem) + 0x4000)), DMEM initial values exceed 16 KiB Flash image)
+
+.sbss_location  0x000000007ff80060        0x0
+                0x000000007ff80060                . = ADDR (.sbss_location)
+
+.sbss           0x000000007ff80060        0x0
+                [!provide]                        PROVIDE (__sbss_start = .)
+ *(.sbss)
+ *(.sbss.*)
+ *(.gnu.linkonce.sb.*)
+                [!provide]                        PROVIDE (__sbss_end = .)
+
+.bss_location   0x000000007ff80060        0x0
+                0x000000007ff80060                . = ADDR (.bss_location)
+
+.bss            0x000000007ff80060     0x128c
+                [!provide]                        PROVIDE (__bss_start = .)
+ *(.bss)
+ .bss           0x000000007ff80060       0x8c ./output/flash_cmd.o
+ .bss           0x000000007ff800ec     0x1004 ./output/flash_verify.o
+ .bss           0x000000007ff810f0        0x1 ./output/cmd_sys.o
+                0x000000007ff810f0                exit_program
+ *fill*         0x000000007ff810f1        0x3 
+ .bss           0x000000007ff810f4       0x18 ./output/cmdline.o
+                0x000000007ff810f4                argc
+                0x000000007ff810f8                argv
+ .bss           0x000000007ff8110c        0x2 ./output/mcu.o
+                0x000000007ff8110c                enable_debug_output
+                0x000000007ff8110d                debug_mode
+ *fill*         0x000000007ff8110e        0x2 
+ .bss           0x000000007ff81110        0x8 ./output/printf.o
+                0x000000007ff81110                stdout_putf
+                0x000000007ff81114                stdout_putp
+ .bss           0x000000007ff81118       0x24 ./output/timer.o
+                0x000000007ff81118                timer_tick
+                0x000000007ff81120                hh
+                0x000000007ff81121                mm
+                0x000000007ff81122                ss
+                0x000000007ff81123                ms
+                0x000000007ff81124                riscv_timer_inst
+ .bss           0x000000007ff8113c      0x1a0 ./output/uart_int.o
+                0x000000007ff8113c                rx_count
+                0x000000007ff81140                tx_left
+                0x000000007ff81144                cmd_valid
+                0x000000007ff81145                ret_valid
+                0x000000007ff81146                term_cmd_valid
+                0x000000007ff81147                fetching_term_cmd
+                0x000000007ff81148                rb_start
+                0x000000007ff8114c                rb_stop
+                0x000000007ff81150                serial_idle
+                0x000000007ff81151                output_ring_buffer
+                0x000000007ff81251                uart_buf
+                0x000000007ff81258                command_buf_len
+                0x000000007ff8125c                command_buf
+ .bss           0x000000007ff812dc       0x10 ./output/spi.o
+                0x000000007ff812dc                spi_reg_base
+                0x000000007ff812e0                spi_buf_base
+                0x000000007ff812e4                spi_tx_buffer
+                0x000000007ff812e8                spi_rx_buffer
+ *(.bss.*)
+ *(.gnu.linkonce.b.*)
+ *(COMMON)
+                0x000000007ff812ec                . = ALIGN (0x4)
+                [!provide]                        PROVIDE (__bss_end = .)
+
+.heap_location  0x000000007ff812ec        0x0
+                0x000000007ff812ec                . = ADDR (.heap_location)
+
+.heap           0x000000007ff812ec        0x0
+                0x000000007ff812ec                _heap = .
+                0x000000007ff812ec                _heap_start = .
+                0x000000007ff812ec                . = (. + _HEAP_SIZE)
+                0x000000007ff812ec                _heap_end = .
+
+.stack_location
+                0x000000007ff812ec        0x0
+                0x000000007ff812ec                . = ADDR (.stack_location)
+
+.stack          0x000000007ff812f0     0x2000
+                0x000000007ff812f0                _stack_end = .
+                0x000000007ff832f0                . = (. + _STACK_SIZE)
+ *fill*         0x000000007ff812f0     0x2000 
+                0x000000007ff832f0                . = ALIGN (0x8)
+                0x000000007ff832f0                _stack = .
+                0x000000007ff832f0                _end = .
+LOAD C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a
+LOAD C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a
+OUTPUT(./output/test.xexe elf64-codasip-le)
+
+.codasip_as     0x0000000000000000       0x11
+ .codasip_as    0x0000000000000000       0x11 ./output/crt0.o
+
+.debug_line     0x0000000000000000     0x6c7c
+ .debug_line    0x0000000000000000      0x2d7 ./output/crt0.o
+ .debug_line    0x00000000000002d7      0xa25 ./output/flash_cmd.o
+ .debug_line    0x0000000000000cfc      0x5f4 ./output/flash_verify.o
+ .debug_line    0x00000000000012f0      0x3d6 ./output/cmd_sys.o
+ .debug_line    0x00000000000016c6       0xd2 ./output/cmd_sys_def.o
+ .debug_line    0x0000000000001798      0x4fe ./output/cmdline.o
+ .debug_line    0x0000000000001c96      0xee3 ./output/custom_test.o
+ .debug_line    0x0000000000002b79       0xd6 ./output/custom_test_def.o
+ .debug_line    0x0000000000002c4f      0x3b5 ./output/main.o
+ .debug_line    0x0000000000003004      0x251 ./output/mcu.o
+ .debug_line    0x0000000000003255      0x910 ./output/printf.o
+ .debug_line    0x0000000000003b65       0x54 ./output/reg_acc.o
+ .debug_line    0x0000000000003bb9      0x4a3 ./output/timer.o
+ .debug_line    0x000000000000405c      0x567 ./output/uart_int.o
+ .debug_line    0x00000000000045c3      0x66c ./output/i2c_master.o
+ .debug_line    0x0000000000004c2f      0x22f ./output/spi.o
+ .debug_line    0x0000000000004e5e      0x4bc ./output/debug.o
+ .debug_line    0x000000000000531a      0x193 ./output/endian.o
+ .debug_line    0x00000000000054ad      0x64c ./output/sha256.o
+ .debug_line    0x0000000000005af9      0xbc6 ./output/lms.o
+ .debug_line    0x00000000000066bf      0x5bd ./output/lms_selftest.o
+
+.debug_abbrev   0x0000000000000000      0xf9b
+ .debug_abbrev  0x0000000000000000        0xc ./output/crt0.o
+ .debug_abbrev  0x000000000000000c       0xf7 ./output/flash_cmd.o
+ .debug_abbrev  0x0000000000000103       0xf0 ./output/flash_verify.o
+ .debug_abbrev  0x00000000000001f3       0x93 ./output/cmd_sys.o
+ .debug_abbrev  0x0000000000000286       0x8c ./output/cmd_sys_def.o
+ .debug_abbrev  0x0000000000000312       0xef ./output/cmdline.o
+ .debug_abbrev  0x0000000000000401      0x16e ./output/custom_test.o
+ .debug_abbrev  0x000000000000056f       0x8c ./output/custom_test_def.o
+ .debug_abbrev  0x00000000000005fb       0xdc ./output/main.o
+ .debug_abbrev  0x00000000000006d7       0x9f ./output/mcu.o
+ .debug_abbrev  0x0000000000000776       0xdb ./output/printf.o
+ .debug_abbrev  0x0000000000000851        0xc ./output/reg_acc.o
+ .debug_abbrev  0x000000000000085d       0xf0 ./output/timer.o
+ .debug_abbrev  0x000000000000094d       0xb7 ./output/uart_int.o
+ .debug_abbrev  0x0000000000000a04       0x99 ./output/i2c_master.o
+ .debug_abbrev  0x0000000000000a9d       0xaa ./output/spi.o
+ .debug_abbrev  0x0000000000000b47       0x70 ./output/debug.o
+ .debug_abbrev  0x0000000000000bb7       0x8e ./output/endian.o
+ .debug_abbrev  0x0000000000000c45      0x11a ./output/sha256.o
+ .debug_abbrev  0x0000000000000d5f      0x10e ./output/lms.o
+ .debug_abbrev  0x0000000000000e6d      0x12e ./output/lms_selftest.o
+
+.debug_info     0x0000000000000000     0x3b9c
+ .debug_info    0x0000000000000000       0x4c ./output/crt0.o
+ .debug_info    0x000000000000004c      0x3e3 ./output/flash_cmd.o
+ .debug_info    0x000000000000042f      0x2f8 ./output/flash_verify.o
+ .debug_info    0x0000000000000727      0x228 ./output/cmd_sys.o
+ .debug_info    0x000000000000094f       0xee ./output/cmd_sys_def.o
+ .debug_info    0x0000000000000a3d      0x222 ./output/cmdline.o
+ .debug_info    0x0000000000000c5f      0x6bb ./output/custom_test.o
+ .debug_info    0x000000000000131a       0xee ./output/custom_test_def.o
+ .debug_info    0x0000000000001408      0x1b0 ./output/main.o
+ .debug_info    0x00000000000015b8      0x155 ./output/mcu.o
+ .debug_info    0x000000000000170d      0x4a4 ./output/printf.o
+ .debug_info    0x0000000000001bb1       0x44 ./output/reg_acc.o
+ .debug_info    0x0000000000001bf5      0x319 ./output/timer.o
+ .debug_info    0x0000000000001f0e      0x23b ./output/uart_int.o
+ .debug_info    0x0000000000002149      0x2d6 ./output/i2c_master.o
+ .debug_info    0x000000000000241f      0x1e3 ./output/spi.o
+ .debug_info    0x0000000000002602      0x187 ./output/debug.o
+ .debug_info    0x0000000000002789       0xf5 ./output/endian.o
+ .debug_info    0x000000000000287e      0x34e ./output/sha256.o
+ .debug_info    0x0000000000002bcc      0x8a1 ./output/lms.o
+ .debug_info    0x000000000000346d      0x72f ./output/lms_selftest.o
+
+.debug_str      0x0000000000000000     0x13e0
+ .debug_str     0x0000000000000000      0x1df ./output/flash_cmd.o
+                                        0x251 (size before relaxing)
+ .debug_str     0x00000000000001df       0xe9 ./output/flash_verify.o
+                                        0x28a (size before relaxing)
+ .debug_str     0x00000000000002c8       0x83 ./output/cmd_sys.o
+                                        0x1e0 (size before relaxing)
+ .debug_str     0x000000000000034b       0x5f ./output/cmd_sys_def.o
+                                        0x186 (size before relaxing)
+ .debug_str     0x00000000000003aa       0x72 ./output/cmdline.o
+                                        0x1ef (size before relaxing)
+ .debug_str     0x000000000000041c      0x2be ./output/custom_test.o
+                                        0x4be (size before relaxing)
+ .debug_str     0x00000000000006da       0x51 ./output/custom_test_def.o
+                                        0x1a2 (size before relaxing)
+ .debug_str     0x000000000000072b       0x85 ./output/main.o
+                                        0x1f0 (size before relaxing)
+ .debug_str     0x00000000000007b0       0x75 ./output/mcu.o
+                                        0x1a7 (size before relaxing)
+ .debug_str     0x0000000000000825       0xa5 ./output/printf.o
+                                        0x22b (size before relaxing)
+ .debug_str     0x00000000000008ca      0x115 ./output/timer.o
+                                        0x2a0 (size before relaxing)
+ .debug_str     0x00000000000009df       0xf1 ./output/uart_int.o
+                                        0x25b (size before relaxing)
+ .debug_str     0x0000000000000ad0       0x75 ./output/i2c_master.o
+                                        0x1ea (size before relaxing)
+ .debug_str     0x0000000000000b45       0x92 ./output/spi.o
+                                        0x1fe (size before relaxing)
+ .debug_str     0x0000000000000bd7       0x60 ./output/debug.o
+                                        0x1bd (size before relaxing)
+ .debug_str     0x0000000000000c37       0x39 ./output/endian.o
+                                        0x177 (size before relaxing)
+ .debug_str     0x0000000000000c70       0xc9 ./output/sha256.o
+                                        0x22e (size before relaxing)
+ .debug_str     0x0000000000000d39       0xe6 ./output/lms.o
+                                        0x2ed (size before relaxing)
+ .debug_str     0x0000000000000e1f      0x5c1 ./output/lms_selftest.o
+                                        0x7ee (size before relaxing)
+
+.debug_macinfo  0x0000000000000000       0x13
+ .debug_macinfo
+                0x0000000000000000        0x1 ./output/flash_cmd.o
+ .debug_macinfo
+                0x0000000000000001        0x1 ./output/flash_verify.o
+ .debug_macinfo
+                0x0000000000000002        0x1 ./output/cmd_sys.o
+ .debug_macinfo
+                0x0000000000000003        0x1 ./output/cmd_sys_def.o
+ .debug_macinfo
+                0x0000000000000004        0x1 ./output/cmdline.o
+ .debug_macinfo
+                0x0000000000000005        0x1 ./output/custom_test.o
+ .debug_macinfo
+                0x0000000000000006        0x1 ./output/custom_test_def.o
+ .debug_macinfo
+                0x0000000000000007        0x1 ./output/main.o
+ .debug_macinfo
+                0x0000000000000008        0x1 ./output/mcu.o
+ .debug_macinfo
+                0x0000000000000009        0x1 ./output/printf.o
+ .debug_macinfo
+                0x000000000000000a        0x1 ./output/timer.o
+ .debug_macinfo
+                0x000000000000000b        0x1 ./output/uart_int.o
+ .debug_macinfo
+                0x000000000000000c        0x1 ./output/i2c_master.o
+ .debug_macinfo
+                0x000000000000000d        0x1 ./output/spi.o
+ .debug_macinfo
+                0x000000000000000e        0x1 ./output/debug.o
+ .debug_macinfo
+                0x000000000000000f        0x1 ./output/endian.o
+ .debug_macinfo
+                0x0000000000000010        0x1 ./output/sha256.o
+ .debug_macinfo
+                0x0000000000000011        0x1 ./output/lms.o
+ .debug_macinfo
+                0x0000000000000012        0x1 ./output/lms_selftest.o
+
+.debug_frame    0x0000000000000000     0x2220
+ .debug_frame   0x0000000000000000      0x36c ./output/flash_cmd.o
+ .debug_frame   0x000000000000036c      0x190 ./output/flash_verify.o
+ .debug_frame   0x00000000000004fc      0x208 ./output/cmd_sys.o
+ .debug_frame   0x0000000000000704      0x144 ./output/cmdline.o
+ .debug_frame   0x0000000000000848      0x540 ./output/custom_test.o
+ .debug_frame   0x0000000000000d88      0x1cc ./output/main.o
+ .debug_frame   0x0000000000000f54      0x110 ./output/mcu.o
+ .debug_frame   0x0000000000001064      0x308 ./output/printf.o
+ .debug_frame   0x000000000000136c      0x1bc ./output/timer.o
+ .debug_frame   0x0000000000001528      0x144 ./output/uart_int.o
+ .debug_frame   0x000000000000166c      0x1d4 ./output/i2c_master.o
+ .debug_frame   0x0000000000001840      0x13c ./output/spi.o
+ .debug_frame   0x000000000000197c      0x110 ./output/debug.o
+ .debug_frame   0x0000000000001a8c       0x78 ./output/endian.o
+ .debug_frame   0x0000000000001b04      0x188 ./output/sha256.o
+ .debug_frame   0x0000000000001c8c      0x3a0 ./output/lms.o
+ .debug_frame   0x000000000000202c       0xcc ./output/lms_selftest.o
+ .debug_frame   0x00000000000020f8       0x2c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memcpy.o)
+ .debug_frame   0x0000000000002124       0x2c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(memset.o)
+ .debug_frame   0x0000000000002150       0x2c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/newlib/lib\libc.a(strlen.o)
+ .debug_frame   0x000000000000217c       0x2c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivdi3.o)
+ .debug_frame   0x00000000000021a8       0x2c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(udivmoddi4.o)
+ .debug_frame   0x00000000000021d4       0x4c C:/Codasip/codix-bk3-32IMC-Upid-CORE-3.2.0-8.3.3-2901-windows.10.x86_64/sdk/lib\libcomp.a(umoddi3.o)
